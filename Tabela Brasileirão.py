@@ -34,26 +34,3 @@ print(sorted(brasileiro))
 
 #d
 print(f'\n\nA {brasileiro[17]} é o {brasileiro.index("Chapecoense")+1}º colocado')
-
-'''
-disponibilizo meu código:
-campeonato = ('Flamengo','Fluminense','Atlético','São Paulo','Grêmio',
-            'Corinthians','Palmeiras','Internacional','Sport Recife',
-            'Cruzeiro','América-MG','Botafogo','Vasco da Gama','Vitória',
-            'Bahia','Santos','Atlético-PR','Chapecoense','Ceará','Paraná')
-
-print(f'a) Os cinco primeiros colocados são: ')
-for cont in range(0,5):
-    print(f'{campeonato[cont]}')
-
-print(f'b) Os últimos 4 colocados são: ')
-for cont in range(16,len(campeonato)):
-    print(f'{campeonato[cont]}')
-
-print(f'c) Os times em ordem alfabética são:')
-for x in sorted(campeonato):
-    print(f'{x}')
-
-print(f"d) O time da Chapecoense está na {campeonato.index('Chapecoense')+1}a posição.")﻿
-'''
-
