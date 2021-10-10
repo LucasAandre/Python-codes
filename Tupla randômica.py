@@ -61,25 +61,4 @@ while True:
 print('\nSE FINITO!')
 print(max(valores))
 print(min(valores))
-'''
-Importar função de biblioteca como variável foi informação valiosa heim Stick! \o/ 
-o sorted() funciona com tuplas de inteiros também, ordenando do menor pro maior, depois só pegar pelo indice da tupla, 
-ou usa max() e min() logo de uma vez :P 
-'''
-
-'''
-from random import randint as r
-
-n = (r(0, 10), r(0, 10), r(0, 10), r(0, 10), r(0, 10))
-print('Os numeros sorteados foram: ', n)
-for c in range(0, len(n)):
-    if c == 0:
-        n_menor = n[c]
-        n_maior = n[c]
-    else:
-        if n[c] > n_maior:
-            n_maior = n[c]
-        if n[c] < n_menor:
-            n_menor = n[c]
-print(f'O número maior é {n_maior} O número menor é {n_menor}')
-'''
+t(f'O número maior é {n_maior} O número menor é {n_menor}')
