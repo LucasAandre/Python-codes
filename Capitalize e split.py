@@ -7,4 +7,3 @@ separa = NovoNome.split()
 print('Analisando o nome {}...'.format(Nome))
 print('O nome de sua cidade começa com Santo: ')
 print('Santo' in separa[0])
-
